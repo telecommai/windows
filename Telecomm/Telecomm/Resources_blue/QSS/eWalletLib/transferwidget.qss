@@ -1,0 +1,70 @@
+QWidget#TransferWidget
+{
+background-color: #042439;
+}
+QWidget#midWidget
+{
+border-radius: 4px;
+background-color: #15447c;
+}
+QLabel
+{
+background-color: #15447c;
+}
+QLineEdit
+{
+border: 1px solid #6a82a5;
+border-radius: 4px;
+background-color: #15447c;
+color: white;
+padding-left: 4px;
+line-height: 28px;
+}
+QLineEdit:focus
+{
+border-color: white;
+}
+QPushButton#mBtnClose
+{
+border-image: url(:/Login/Resources/login/pclogin_title_close.png);
+}
+QPushButton#mBtnClose:hover
+{
+border-image: url(:/Login/Resources/login/title_close_hover.png);
+}
+QLabel#label_1
+{
+color: #6a82a5;
+}
+QLabel#label_2
+{
+color: #6a82a5;
+}
+QLabel#label_3
+{
+color: #6a82a5;
+}
+QLabel#label_4
+{
+color: #6a82a5;
+}
+QLabel#turnOutLabel
+{
+color: #6a82a5;
+}
+QLabel#energyLabel
+{
+color: #face80;
+}
+QLabel#minerLabel
+{
+color: #6a82a5;
+}
+QLabel#label_7
+{
+color: rgb(18,141, 234);
+}
+QLabel#label_8
+{
+color: rgb(18,141, 234);
+}

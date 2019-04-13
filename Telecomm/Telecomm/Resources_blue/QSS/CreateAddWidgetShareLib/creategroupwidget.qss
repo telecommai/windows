@@ -1,0 +1,76 @@
+QWidget
+{
+background-color: #183257;
+}
+
+QScrollBar:vertical
+{
+	border:none;
+    width:12px;
+    background:rgba(0,0,0,0%);
+}
+QScrollBar::handle:vertical
+{
+    width:12px;
+    background:#123C77;
+    border-radius:6px;  
+    min-height:20;
+}
+QScrollBar::handle:vertical:hover
+{
+    width:12px;
+    background:#123C77;   
+    border-radius:6px;
+    min-height:20;
+}
+QScrollBar::add-line:vertical   
+{
+	border:none;
+}
+QScrollBar::sub-line:vertical  
+{
+	border:none;
+}
+QScrollBar::add-page:vertical,QScrollBar::sub-page:vertical   
+{
+    background: rgba(0,0,0, 0.2);
+    border-radius:4px;
+}
+QLabel#label_1
+{
+color: #108ee9;
+}
+QPushButton#m_btnCancel
+{
+color: white;
+border: none;
+background-color: #108ee9;
+border-radius: 5px;
+}
+QPushButton#m_btnConfirm
+{
+color: white;
+border: none;
+background-color: #108ee9;
+border-radius: 5px;
+}
+QLabel#m_lbShowGroupMembersCount
+{
+color: #6a82a5;
+}
+QLineEdit#m_lineGroupName
+{
+border: 1px solid rgba(255,255,255,0.3);
+border-radius: 4px;
+color: white;
+}
+QLineEdit#m_lineSearchText
+{
+border: 1px solid rgba(255,255,255,0.3);
+border-radius: 4px;
+color: white;
+}
+QListWidget::item:selected
+{
+	background-color:#163B68;
+}

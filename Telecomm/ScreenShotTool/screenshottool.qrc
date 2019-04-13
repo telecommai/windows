@@ -1,0 +1,45 @@
+<RCC>
+    <qresource prefix="/ScreenShotTool"/>
+    <qresource prefix="/screencut">
+        <file>Resources/screencut/Arrow.png</file>
+        <file>Resources/screencut/arrow_hov.png</file>
+        <file>Resources/screencut/Cancel.png</file>
+        <file>Resources/screencut/cancle.png</file>
+        <file>Resources/screencut/Edit.png</file>
+        <file>Resources/screencut/edit_hov.png</file>
+        <file>Resources/screencut/Finish.png</file>
+        <file>Resources/screencut/Line.png</file>
+        <file>Resources/screencut/line_hov.png</file>
+        <file>Resources/screencut/Rect.png</file>
+        <file>Resources/screencut/rect_hov.png</file>
+        <file>Resources/screencut/Round.png</file>
+        <file>Resources/screencut/round_hov.png</file>
+        <file>Resources/screencut/9px.png</file>
+        <file>Resources/screencut/15px.png</file>
+        <file>Resources/screencut/25px.png</file>
+        <file>Resources/screencut/revert.png</file>
+        <file>Resources/screencut/save.png</file>
+        <file>Resources/screencut/white.png</file>
+        <file>Resources/screencut/masic.png</file>
+        <file>Resources/screencut/cur12.png</file>
+        <file>Resources/screencut/cur24.png</file>
+        <file>Resources/screencut/cur48.png</file>
+        <file>Resources/screencut/screencontrolwidget.qss</file>
+        <file>Resources/screencut/screenpensettingwidget.qss</file>
+    </qresource>
+    <qresource prefix="/Simplified Chinese">
+        <file>Resources/screencutsharelib_zh.qm</file>
+    </qresource>
+    <qresource prefix="/Russian">
+        <file>Resources/screencutsharelib_ru.qm</file>
+    </qresource>
+    <qresource prefix="/Hayeren">
+        <file>Resources/screencutsharelib_hy.qm</file>
+    </qresource>
+    <qresource prefix="/Spanish">
+        <file>Resources/screencutsharelib_es.qm</file>
+    </qresource>
+    <qresource prefix="/Portuguese">
+        <file>Resources/screencutsharelib_pt.qm</file>
+    </qresource>
+</RCC>

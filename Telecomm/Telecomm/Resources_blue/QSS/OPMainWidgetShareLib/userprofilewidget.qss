@@ -1,0 +1,79 @@
+QWidget#UserProfileWidget
+{
+background-color: rgb(255, 255, 255);
+}
+
+QWidget#widget
+{
+background-color: #0a182d;
+}
+
+QLabel
+{
+color: #108ee9;
+}
+
+QLabel#signLabel
+{
+color: grey;
+}
+
+QWidget#widget_2
+{
+background-color: #0a182d;
+}
+
+QLabel#label
+{
+color: grey;
+}
+
+QLabel#label_2
+{
+color: grey;
+}
+
+
+QLabel#label_3
+{
+color: grey;
+}
+
+QLabel#label_7
+{
+color: grey;
+}
+
+QLabel#label_5
+{
+color: grey;
+}
+
+QLabel#label_6
+{
+color: grey;
+}
+
+QPushButton#strangersBtn
+{
+margin: 5px;
+border-image: url(:/ewallet/Resources/ewallet/switch_off.png);
+}
+QPushButton#strangersBtn:checked
+{
+margin: 5px;
+border-image: url(:/ewallet/Resources/ewallet/switch_on.png);
+}
+
+QPushButton#QRTitleBtn
+{
+color: grey;
+text-align: left;
+background-color:rgba(0,0,0,0);
+}
+
+QPushButton#QRImgBtn
+{
+border-image: url(:/searchWidget/Resources/profile/QRcode.png);
+}
+

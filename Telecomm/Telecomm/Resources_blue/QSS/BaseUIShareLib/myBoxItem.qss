@@ -1,0 +1,14 @@
+QLabel#namelabel
+{
+	background-color:raba(0,0,0,0);
+	color:white;
+}
+QLabel#titlelabel
+{
+	color: rgb(18,141, 234);
+	background-color:raba(0,0,0,0);
+}
+QLabel#iconlabel
+{
+	background-color:raba(0,0,0,0);
+}

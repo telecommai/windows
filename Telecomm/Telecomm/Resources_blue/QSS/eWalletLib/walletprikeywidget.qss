@@ -1,0 +1,36 @@
+QWidget#backWidget
+{
+background-color: #183257;
+border: none;
+border-radius: 15px;
+}
+QPushButton#closeBtn
+{
+border-image: url(:/Login/Resources/login/pclogin_title_close.png);
+}
+QPushButton#closeBtn:hover
+{
+border-image: url(:/Login/Resources/login/title_close_hover.png);
+}
+QPushButton#enterBtn
+{
+color: white;
+border: none;
+background-color: #165da3;
+border-radius: 20px;
+}
+QLabel#label_1
+{
+color: #e4ba7b;
+}
+QPlainTextEdit
+{
+background-color: #09192d;
+color: #4c6889;
+border: none;
+}
+QLabel#titleLabel
+{
+color: #6a82a5;
+background-color: rgba(0,0,0, 0);
+}

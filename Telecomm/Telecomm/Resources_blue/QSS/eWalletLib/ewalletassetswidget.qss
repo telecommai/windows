@@ -1,0 +1,70 @@
+QWidget
+{
+background-color: #08172c;
+}
+QListWidget
+{
+background-color: #08172c;
+border: none;
+}
+QListWidget::item:selected
+{
+    border:none;
+    background-color: #183257;
+	padding: -1px;
+}
+QScrollBar:vertical
+{
+	border:none;
+    width:12px;
+    background:rgba(0,0,0,0%);
+
+}
+QScrollBar::handle:vertical
+{
+    width:12px;
+    background:#073552;
+    border-radius:4px;  
+    min-height:20;
+}
+QScrollBar::handle:vertical:hover
+{
+    width:12px;
+    background:#073552;   
+    border-radius:4px;
+    min-height:20;
+}
+QScrollBar::add-line:vertical   
+{
+	border:none;
+}
+QScrollBar::sub-line:vertical  
+{
+	border:none;
+}
+QScrollBar::add-page:vertical,QScrollBar::sub-page:vertical   
+{
+    background: #0a182d;
+    border-radius:4px;
+}
+QWidget#topWidget
+{
+border-image: url(:/ewallet/Resources/ewallet/assetsBack.png);
+}
+QLabel
+{
+background-color: rgba(0,0,0, 0);
+}
+QPushButton
+{
+border-image: url(:/GroupChat/Resources/groupchat/refresh.png);
+background-color: rgba(0,0,0, 0);
+}
+QLabel#label_3
+{
+color: #6a82a6;
+}
+QLabel#numberLabel
+{
+color: #6a82a6;
+}

@@ -1,0 +1,118 @@
+
+QWidget#titleWidget
+{
+background-color: #183257;
+}
+
+QLabel#iconLabel
+{
+border-image: url(':/update/Resources/update/OpenPlanet.png');
+}
+
+
+
+QWidget#widget1{background-color: #183257;}
+QWidget#widget2{background-color: #183257;}
+QWidget#widget3{background-color: #183257;}
+QWidget#widget4{background-color: #183257;}
+QWidget#widget5{background-color: #183257;}
+QWidget#widget6{background-color: #183257;}
+
+QLabel#label{color: rgb(200, 200, 200);}
+QLabel#label_1{color: rgb(200, 200, 200);}
+QLabel#label_2{color: rgb(200, 200, 200);}
+QLabel#label_3{color: rgb(200, 200, 200);}
+QLabel#label_4{color: rgb(200, 200, 200);}
+QLabel#label_5{color: rgb(200, 200, 200);}
+QLabel#label_6{color: rgb(200, 200, 200);}
+
+
+QPushButton#minBtn
+{
+border-image: url(':/PerChat/Resources/person/minsize03.png');
+}
+QPushButton#minBtn:hover
+{
+border-image: url(':/PerChat/Resources/person/minsize35.png');
+}
+
+QPushButton#quitBtn
+{
+border-image: url(':/PerChat/Resources/person/close01.png');
+}
+QPushButton#quitBtn:hover
+{
+border-image: url(':/PerChat/Resources/person/close03.png');
+}
+
+QLineEdit#nickNameEdit
+{
+border: 1px solid Gainsboro;
+border-radius: 5px;
+background-color: #183257;
+color: rgb(200, 200, 200)
+}
+
+QPlainTextEdit#signTextEdit
+{
+border: 1px solid Gainsboro;
+border-radius: 5px;
+background-color: #183257;
+color: rgb(200, 200, 200)
+}
+
+QComboBox
+{
+border: 1px solid Gainsboro;
+border-radius: 5px;
+background-color: #183257;
+color: rgb(200, 200, 200)
+}
+QComboBox::drop-down {
+   border: none;
+}
+QComboBox::down-arrow {
+    
+	border-image: url(:/TreeIcon/Resources/TreeIcon/tree_open.png);
+}
+
+QLineEdit#phoneEdit
+{
+border: 1px solid Gainsboro;
+border-radius: 5px;
+background-color: #183257;
+color: rgb(200, 200, 200)
+}
+
+QLineEdit#mailEdit
+{
+border: 1px solid Gainsboro;
+border-radius: 5px;
+background-color: #183257;
+color: rgb(200, 200, 200)
+}
+
+QPushButton#saveBtn
+{
+border: none;
+border-radius: 5px;
+background-color: #165ca3;
+color: white;
+}
+QPushButton#saveBtn:hover
+{
+color: #163e70;
+}
+
+QPushButton#closeBtn
+{
+border: none;
+border-radius: 5px;
+background-color: #165ca3;
+color: white;
+}
+QPushButton#closeBtn:hover
+{
+color: #163e70;
+}
+

@@ -1,0 +1,9 @@
+QLabel#mNickName
+{
+color:#108ee9;
+}
+
+QLabel#mAutoGraph
+{
+color:#44608a;
+}

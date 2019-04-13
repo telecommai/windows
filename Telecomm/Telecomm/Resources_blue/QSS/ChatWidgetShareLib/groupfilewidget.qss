@@ -1,0 +1,92 @@
+QWidget#backWidget
+{
+background-color: #042439;
+}
+
+QScrollBar:vertical
+{
+	border:none;
+    width:12px;
+    background:rgba(0,0,0,0%);
+
+}
+QScrollBar::handle:vertical
+{
+    width:12px;
+    background-color: rgb(8, 67, 104);
+    border-radius:4px;  
+    min-height:20;
+}
+QScrollBar::handle:vertical:hover
+{
+    width:12px;  
+	background-color: rgb(8, 67, 104);
+    border-radius:4px;
+    min-height:20;
+}
+QScrollBar::add-line:vertical   
+{
+	border:none;
+}
+QScrollBar::sub-line:vertical  
+{
+	border:none;
+}
+QScrollBar::add-page:vertical,QScrollBar::sub-page:vertical   
+{
+    background: #0a182d;
+    border-radius:4px;
+}
+QScrollBar:horizontal
+{
+	border:none;
+    height:12px;
+    background:rgba(0,0,0,0%);
+
+}
+QScrollBar::handle:horizontal
+{
+    height:12px;
+    background-color: rgb(8, 67, 104);
+    border-radius:4px;  
+    min-width:20;
+}
+QScrollBar::handle:horizontal:hover
+{
+    height:12px;  
+	background-color: rgb(8, 67, 104);
+    border-radius:4px;
+    min-width:20;
+}
+QScrollBar::add-line:horizontal   
+{
+	border:none;
+}
+QScrollBar::sub-line:horizontal  
+{
+	border:none;
+}
+QScrollBar::add-page:horizontal,QScrollBar::sub-page:horizontal   
+{
+    background: #0a182d;
+    border-radius:4px;
+}
+QLabel#informLabel
+{
+color: #108ee9;
+}
+QTableWidget#tableWidget
+{
+background-color: #042439;
+}
+QHeaderView:section
+{
+border: none;
+background-color: #183257;
+color: #108ee9;
+}
+QTableWidget:item:selected
+{ 
+background-color: #16396a;
+color: #108ee9;
+}

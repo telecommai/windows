@@ -1,0 +1,123 @@
+QWidget#midWidget
+{
+border-radius: 10px;
+background-color: #15447c;
+}
+QLineEdit
+{
+border: none;
+background-color: #15447c;
+color: white;
+line-height: 28px;
+}
+QLineEdit:focus
+{
+border-color: white;
+}
+QPushButton#mBtnClose
+{
+border-image: url(:/Login/Resources/login/pclogin_title_close.png);
+}
+QPushButton#mBtnClose:hover
+{
+border-image: url(:/Login/Resources/login/title_close_hover.png);
+}
+QLabel#titleLabel
+{
+color: white;
+}
+QLabel#balanceLabel
+{
+background-color: #15447c;
+color: #6a82a5;
+}
+QLabel#label_7
+{
+background-color: #15447c;
+color: #6a82a5;
+}
+QLabel#nameLabel
+{
+background-color: #15447c;
+color: #6a82a5;
+}
+QLabel#label_1
+{
+background-color: #15447c;
+color: #6a82a5;
+}
+QLabel#label_2
+{
+background-color: #15447c;
+color: #6a82a5;
+}
+QLabel#label_3
+{
+background-color: #15447c;
+color: #6a82a5;
+}
+QLabel#valueEdit
+{
+background-color: #15447c;
+color: #6a82a5;
+}
+QComboBox 
+{
+border: 1px solid #6a82a6;;
+background-color: rgba(0,0,0, 0);
+color: #6a82a5;
+}
+QComboBox::drop-down
+{
+border-image: url(:/TreeIcon/Resources/TreeIcon/tree_open.png);
+border: none;
+}
+QComboBox QAbstractItemView::item
+{
+background-color: white;
+color: black;
+}
+QComboBox QAbstractItemView::item:selected
+{
+background-color: #15447c;
+color: white;
+}
+QLabel#label_4
+{
+color: rgb(18,141, 234);
+}
+QLabel#addressLabel
+{
+color: rgb(18,141, 234);
+}
+QPushButton#enterBtn
+{
+color: white;
+background-color: #165da3;
+border: none;
+border-radius: 5px;
+}
+QPushButton#enterBtn:hover
+{
+color: #0a182d;
+}
+QFrame
+{
+color: #6a82a5;
+border-left: none;
+border-right: none;
+border-bottom: none;
+background-color: rgba(0,0,0, 0);
+}
+QWidget#minerWidget
+{
+background-color: rgba(0,0,0, 0);
+}
+QLabel#label_9
+{
+color: rgb(18,141, 234);
+}
+QLabel#minerLabel
+{
+color: rgb(18,141, 234);
+}

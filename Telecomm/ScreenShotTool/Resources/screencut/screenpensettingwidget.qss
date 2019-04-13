@@ -1,0 +1,215 @@
+QScrollBar:vertical
+{
+    width:8px;
+    background:rgba(0,0,0,0%);
+    margin:0px,0px,0px,0px;
+}
+QScrollBar::handle:vertical
+{
+    width:8px;
+    background:rgba(0,0,0,25%);
+    border-radius:4px;
+    min-height:20;
+}
+QScrollBar::handle:vertical:hover
+{
+    width:8px;
+    background:rgba(0,0,0,50%);
+    border-radius:4px;
+    min-height:20;
+}
+QScrollBar::add-page:vertical,QScrollBar::sub-page:vertical   
+{
+    background:rgba(0,0,0,10%);
+    border-radius:4px;
+}
+QWidget
+{
+	background-color:white;
+}
+
+QPushButton#btn9px{
+border:none;
+background-color:white;
+image: url(:/screencut/Resources/screencut/9px.png);}
+
+QPushButton#btn9px:checked{
+border:1px solid grey;
+background-color:lightgrey;
+image: url(:/screencut/Resources/screencut/9px.png);}
+
+QPushButton#btn9px:hover{
+border:1px solid grey;
+image: url(:/screencut/Resources/screencut/9px.png);}
+
+QPushButton#btn15px{
+border:none;
+background-color:white;
+image: url(:/screencut/Resources/screencut/15px.png);}
+
+QPushButton#btn15px:checked{
+border:1px solid grey;
+background-color:lightgrey;
+image: url(:/screencut/Resources/screencut/15px.png);}
+
+QPushButton#btn15px:hover{
+border:1px solid grey;
+image: url(:/screencut/Resources/screencut/15px.png);}
+
+QPushButton#btn25px{
+border:none;
+background-color:white;
+image: url(:/screencut/Resources/screencut/25px.png);}
+
+QPushButton#btn25px:checked{
+border:1px solid grey;
+background-color:lightgrey;
+image: url(:/screencut/Resources/screencut/25px.png);}
+
+QPushButton#btn25px:hover{
+border:1px solid grey;
+image: url(:/screencut/Resources/screencut/25px.png);}
+
+QLabel#textLabel
+{
+border-image: url(:/screencut/Resources/screencut/Edit.png);
+}
+
+QScrollBar:vertical
+{
+    width:8px;
+    background:rgba(0,0,0,0%);
+    margin:0px,0px,0px,0px;
+    padding-top:9px;
+    padding-bottom:9px;
+}
+QScrollBar::handle:vertical
+{
+    width:8px;
+    background:rgba(0,0,0,25%);
+    border-radius:4px;
+    min-height:20;
+}
+QScrollBar::handle:vertical:hover
+{
+    width:8px;
+    background:rgba(0,0,0,50%);
+    border-radius:4px;
+    min-height:20;
+}
+QScrollBar::add-line:vertical
+{
+    height:9px;width:8px;
+    border-image:url(:/images/a/3.png);
+    subcontrol-position:bottom;
+}
+QScrollBar::sub-line:vertical
+{
+    height:9px;width:8px;
+    border-image:url(:/images/a/1.png);
+    subcontrol-position:top;
+}
+QScrollBar::add-line:vertical:hover
+{
+    height:9px;width:8px;
+    border-image:url(:/images/a/4.png);
+    subcontrol-position:bottom;
+}
+QScrollBar::sub-line:vertical:hover
+{
+    height:9px;width:8px;
+    border-image:url(:/images/a/2.png);
+    subcontrol-position:top;
+}
+QScrollBar::add-page:vertical,QScrollBar::sub-page:vertical   
+{
+    background:rgba(0,0,0,10%);
+    border-radius:4px;
+}
+
+QPushButton#btnColor
+{
+border:none;
+}
+
+QPushButton#btnBlack
+{background-color:black;border:1px solid grey}
+QPushButton#btnBlack:hover
+{background-color:black;border:1px solid white}
+
+QPushButton#btnGrey
+{background-color:gray;border:1px solid grey}
+QPushButton#btnGrey:hover
+{background-color:gray;border:1px solid white}
+
+QPushButton#btnDarkRed
+{background-color:darkRed;border:1px solid grey}
+QPushButton#btnDarkRed:hover
+{background-color:darkRed;border:1px solid white}
+
+QPushButton#btnOrange
+{background-color:orange;border:1px solid grey}
+QPushButton#btnOrange:hover
+{background-color:orange;border:1px solid white}
+
+QPushButton#btnGreen
+{background-color:green;border:1px solid grey}
+QPushButton#btnGreen:hover
+{background-color:green;border:1px solid white}
+
+QPushButton#btnDarkBlue
+{background-color:darkBlue;border:1px solid grey}
+QPushButton#btnDarkBlue:hover
+{background-color:darkBlue;border:1px solid white}
+
+QPushButton#btnDarkMagenta
+{background-color:darkmagenta;border:1px solid grey}
+QPushButton#btnDarkMagenta:hover
+{background-color:darkmagenta;border:1px solid white}
+
+QPushButton#btnDarkCyan
+{background-color:darkcyan;border:1px solid grey}
+QPushButton#btnDarkCyan:hover
+{background-color:darkcyan;border:1px solid white}
+
+QPushButton#btnWhite
+{background-color:white;border:1px solid grey}
+QPushButton#btnWhite:hover
+{background-color:white;border:1px solid white}
+
+QPushButton#btnLightGrey
+{background-color:lightGray;border:1px solid grey}
+QPushButton#btnLightGrey:hover
+{background-color:lightGray;border:1px solid white}
+
+QPushButton#btnRed
+{background-color:red;border:1px solid grey}
+
+QPushButton#btnRed:hover
+{background-color:red;border:1px solid white}
+
+QPushButton#btnYellow
+{background-color:yellow;border:1px solid grey}
+QPushButton#btnYellow:hover
+{background-color:yellow;border:1px solid white}
+
+QPushButton#btnLightGreen
+{background-color:LightGreen;border:1px solid grey}
+QPushButton#btnLightGreen:hover
+{background-color:LightGreen;border:1px solid white}
+
+QPushButton#btnBlue
+{background-color:blue;border:1px solid grey}
+QPushButton#btnBlue:hover
+{background-color:blue;border:1px solid white}
+
+QPushButton#btnMagenta
+{background-color:magenta;border:1px solid grey}
+QPushButton#btnMagenta:hover
+{background-color:magenta;border:1px solid white}
+
+QPushButton#btnCyan
+{background-color:cyan;border:1px solid grey}
+QPushButton#btnCyan:hover
+{background-color:cyan;border:1px solid white}
+
