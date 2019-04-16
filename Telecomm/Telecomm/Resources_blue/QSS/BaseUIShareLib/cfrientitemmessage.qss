@@ -1,0 +1,22 @@
+QLabel#mNickName
+{
+color:#108ee9;
+}
+
+QLabel#mAutoGraph
+{
+color:#44608a;
+}
+
+QLabel#mMessageTime
+{
+color:#108ee9;
+}
+
+QLabel#mMessageNum
+{
+background-color:#FF7F24;
+border-radius:10px;font: 75 10pt 微软雅黑;
+font-size:10px;
+font-color::rgb(0, 0, 0);
+}

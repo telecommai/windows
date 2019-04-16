@@ -1,0 +1,109 @@
+QWidget#LeaveMessageWidget
+{
+background-color: rgba(24,50,87);
+border:0px;
+}
+QTextEdit#MessageEdit
+{
+background-color: rgba(24,50,87);
+selection-color: rgb(56,116,188);
+selection-background-color: yellow;
+padding-left:10px;
+border: 1px solid #6a82a5;
+border-radius:4px;
+font: 75 16pt 微软雅黑; 
+font-size:15px;
+font-weight:100 ;
+color:#6a82a5;
+}
+QLabel#MessageLable
+{
+font: 75 16pt 微软雅黑; 
+font-size:15px;
+font-weight:100 ;
+color:#6a82a5;
+}
+
+QPushButton#pushButtonEsc
+{
+background-color:#164e83;
+border-radius:5px;
+font: 75 16pt 微软雅黑; 
+font-size:15px;
+font-weight:100 ;
+color:white;
+}
+
+QPushButton#pushButtonOK
+{
+background-color: #108ee9;
+border-radius:5px;
+font: 75 16pt 微软雅黑; 
+font-size:15px;
+font-weight:100 ;
+color:white;
+}
+QLabel#OtherNameLabel
+{
+font: 75 16pt 微软雅黑; 
+font-size:15px;
+font-weight:100 ;
+color:#6a82a5;
+}
+QLineEdit#OtherNamelineEdit
+{
+background-color: rgba(24,50,87);
+selection-color: rgb(56,116,188);
+selection-background-color: yellow;
+padding-left:10px;
+border: 1px solid #6a82a5;
+border-radius:4px;
+font: 75 16pt 微软雅黑; 
+font-size:15px;
+font-weight:100 ;
+color:#6a82a5;
+}
+QWidget#InfoWIdget
+{
+background-color: rgba(24,50,87);
+border-right: 1px solid #042439;
+}
+QLabel#idLabel
+{
+font: 75 16pt 微软雅黑; 
+font-size:14px;
+font-weight:100 ;
+color:#6a82a5;
+}
+QLabel#NameLabel
+{
+font: 75 16pt 微软雅黑; 
+font-size:15px;
+font-weight:100 ;
+color:#108ee9
+}
+QWidget#titleBar
+{
+background-color: rgba(24,50,87);
+}
+QPushButton#closeButton
+{
+border-image: url(:/Login/Resources/login/pclogin_title_close.png);
+}
+QPushButton#closeButton:hover
+{
+border-image: url(:/Login/Resources/login/title_close_hover.png);
+}
+QLabel#iconLabel_6
+{
+border-image: url(':/Login/Resources/login/logo.png')
+}
+QLabel#titleLabel_6
+{
+background-color: rgba(24,50,87);
+color: rgb(255, 255, 255);
+}
+
+
+
+

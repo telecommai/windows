@@ -1,0 +1,55 @@
+QWidget#backWidget
+{
+background-color: #08172c;
+border-radius: 10px;
+}
+
+QPushButton#enterBtn
+{
+color: white;
+border: none;
+background-color: #165da3;
+border-radius: 4px;
+margin: 10 10 10 10;
+}
+
+QPlainTextEdit
+{
+margin-left: 10px;
+margin-right: 10px;
+padding: 5px;
+border: none;
+border-radius: 10px;
+background-color: #0c1d37;
+color: white;
+}
+
+QWidget#passwordWidget
+{
+background-color: #162d4c;
+border-radius: 5px;
+margin-left: 10px;
+margin-right: 10px;
+}
+QLabel#label_lock
+{
+border-image: url(:/PerChat/Resources/person/lock.png);
+}
+QLineEdit#passwordEdit
+{
+background-color: rgba(0,0,0, 0);
+border: none;
+color: white;
+}
+QPushButton#closeBtn
+{
+border-image: url(:/Login/Resources/login/pclogin_title_close.png);
+}
+QPushButton#closeBtn:hover
+{
+border-image: url(:/Login/Resources/login/title_close_hover.png);
+}
+QLabel#label
+{
+color: white;
+}

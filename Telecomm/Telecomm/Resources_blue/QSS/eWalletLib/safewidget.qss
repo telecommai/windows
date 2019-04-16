@@ -1,0 +1,98 @@
+QWidget#SafeWidget
+{
+background-color: #042439;
+}
+QWidget#midWidget
+{
+border-radius: 4px;
+background-color: #183457;
+}
+QLabel
+{
+background-color: #183457;
+}
+QLineEdit
+{
+border: 1px solid #6a82a5;
+border-radius: 4px;
+background-color: #183457;
+color: white;
+padding-left: 4px;
+line-height: 28px;
+}
+QLineEdit:focus
+{
+border-color: white;
+}
+QWidget#leftWidget
+{
+background-color: #09192d;
+}
+QWidget#backupItem
+{
+background-color: #183457;
+}
+QLabel#keyLabel
+{
+border-image: url(:/ewallet/Resources/ewallet/privateKey.png);
+}
+QLabel#label_1
+{
+color: #4c6889;
+}
+QLabel#label_4
+{
+border-image: url(:/ewallet/Resources/ewallet/more.png);
+}
+QWidget#rightWidget
+{
+background-color: #183457;
+}
+QWidget#backupPage
+{
+background-color: #183457;
+}
+QLabel
+{
+background-color: #183457;
+}
+QPushButton#copyBtn
+{
+color: white;
+border: none;
+background-color: #108ee9;
+border-radius: 4px;
+}
+QLabel#label_2
+{
+color: #e4ba7b;
+}
+QLabel#label_3
+{
+color: #4c6889;
+}
+QPlainTextEdit
+{
+background-color: #09192d;
+color: #4c6889;
+border: none;
+}
+QWidget#passwordPage
+{
+background-color: #183457;
+}
+QPushButton#enterBtn
+{
+color: white;
+border: none;
+background-color: #108ee9;
+border-radius: 4px;
+}
+QLabel#label1
+{
+color: #4c6889;
+}
+QLabel#tipLabel
+{
+color: #e4ba7b;
+}

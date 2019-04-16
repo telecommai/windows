@@ -1,0 +1,24 @@
+QWidget#MyDeviceWidget
+{
+background-color: #042439;
+}
+QWidget#mainWidget
+{
+background-color: #183257;
+border-radius: 10px;
+}
+QLabel#label_1
+{
+color: rgb(255, 255, 255);
+background-color: rgba(0,0,0, 0);
+}
+QListWidget
+{
+border: none;
+background-color: rgba(0,0,0, 0);
+}
+QListWidget::item:selected
+{
+padding: -1px;
+background-color: #0B1D37;
+}

@@ -1,0 +1,9 @@
+QWidget#IntegralCardWidget
+{
+background-color: #042439;
+}
+QWidget#mainWidget
+{
+background-color: #183257;
+border-radius: 10px;
+}

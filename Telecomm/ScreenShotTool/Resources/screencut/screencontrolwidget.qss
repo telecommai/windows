@@ -1,0 +1,163 @@
+QWidget
+{
+	background-color:rgb(255,255,255);
+}
+
+QToolButton#rectangleBtn
+{
+padding: 1px;
+image: url(:/screencut/Resources/screencut/Rect.png);border:1px;
+}
+
+QToolButton#rectangleBtn:hover
+{
+padding: 0px;
+image: url(:/screencut/Resources/screencut/Rect.png);border:1px solid grey;
+}
+
+QToolButton#rectangleBtn:checked{
+padding: 0px;
+border:1px solid grey;
+background-color:lightgrey;
+image: url(:/screencut/Resources/screencut/Rect.png);}
+
+QToolButton#drawRoundBtn
+{
+padding: 1px;
+image: url(:/screencut/Resources/screencut/Round.png);border:1px;
+}
+
+QToolButton#drawRoundBtn:hover
+{
+padding: 0px;
+image: url(:/screencut/Resources/screencut/Round.png);border:1px solid grey;
+}
+
+QToolButton#drawRoundBtn:checked{
+padding: 0px;
+border:1px solid grey;
+background-color:lightgrey;
+image: url(:/screencut/Resources/screencut/Round.png);}
+
+QToolButton#arrowBtn
+{
+padding: 1px;
+image: url(:/screencut/Resources/screencut/Arrow.png);border:1px;
+}
+
+QToolButton#arrowBtn:hover
+{
+padding: 0px;
+image: url(:/screencut/Resources/screencut/Arrow.png);border:1px solid grey;
+}
+
+QToolButton#arrowBtn:checked{
+padding: 0px;
+border:1px solid grey;
+background-color:lightgrey;
+image: url(:/screencut/Resources/screencut/Arrow.png);}
+
+QToolButton#drawLineBtn
+{
+padding: 1px;
+image: url(:/screencut/Resources/screencut/Line.png);border:1px;
+}
+
+QToolButton#drawLineBtn:hover
+{
+padding: 0px;
+image: url(:/screencut/Resources/screencut/Line.png);border:1px solid grey;
+}
+
+QToolButton#drawLineBtn:checked{
+padding: 0px;
+border:1px solid grey;
+background-color:lightgrey;
+image: url(:/screencut/Resources/screencut/Line.png);}
+
+QToolButton#masicButton
+{
+padding: 1px;
+border:1px;
+image: url(:/screencut/Resources/screencut/masic.png);
+}
+
+QToolButton#masicButton:hover
+{
+padding: 0px;
+border:1px solid grey;
+image: url(:/screencut/Resources/screencut/masic.png);
+}
+
+QToolButton#masicButton:checked{
+padding: 0px;
+border:1px solid grey;
+image: url(:/screencut/Resources/screencut/masic.png);
+background-color:lightgrey;}
+
+QToolButton#textEditBtn
+{
+padding: 1px;
+image: url(:/screencut/Resources/screencut/Edit.png);border:1px;
+}
+
+QToolButton#textEditBtn:hover
+{
+padding: 0px;
+image: url(:/screencut/Resources/screencut/Edit.png);border:1px solid grey;
+}
+
+QToolButton#textEditBtn:checked{
+padding: 0px;
+border:1px solid grey;
+background-color:lightgrey;
+image: url(:/screencut/Resources/screencut/Edit.png);}
+
+QToolButton#revertBtn
+{
+padding: 1px;
+image: url(:/screencut/Resources/screencut/revert.png);border:1px;
+}
+
+QToolButton#revertBtn:hover
+{
+padding: 0px;
+image: url(:/screencut/Resources/screencut/revert.png);border:1px solid grey;
+}
+
+QToolButton#saveBtn
+{
+padding: 1px;
+image: url(:/screencut/Resources/screencut/save.png);border:1px;
+}
+
+QToolButton#saveBtn:hover
+{
+padding: 0px;
+image: url(:/screencut/Resources/screencut/save.png);border:1px solid grey;
+}
+
+QToolButton#cancelBtn
+{
+padding: 1px;
+image: url(:/screencut/Resources/screencut/Cancel.png);border:1px;
+}
+
+QToolButton#cancelBtn:hover
+{
+padding: 0px;
+image: url(:/screencut/Resources/screencut/Cancel.png);border:1px solid grey;
+}
+
+QToolButton#finishBtn
+{
+padding: 1px;
+image: url(:/screencut/Resources/screencut/Finish.png);border:1px;
+}
+
+QToolButton#finishBtn:hover
+{
+padding: 0px;
+image: url(:/screencut/Resources/screencut/Finish.png);border:1px solid grey;
+}
+

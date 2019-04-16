@@ -1,0 +1,52 @@
+QWidget#contentWidget
+{
+	background-color: #183257;
+}
+
+QLabel#contentLabel
+{
+	color: #108ee9;
+	background-color: #183257;
+}
+
+QLineEdit#lineEdit
+{
+	border: none;
+	background-color: rgba(0,0,0, 0);
+	border-bottom: 1px solid grey;
+	color: white;
+}
+
+QPushButton#enterBtn
+{
+	background-color: #165ca3;
+	color: white;
+	border: none;
+	border-radius: 4px;
+}
+
+QPushButton#enterBtn:hover
+{
+	color: #163e70;
+}
+
+QWidget#titleWidget
+{
+	background-color: #183257; 
+}
+
+QPushButton#closeBtn
+{
+	border-image: url(:/RedPacket/Resources/redPacket/close.png);
+}
+
+QLabel#icoLabel
+{
+	border-image: url(:/Login/Resources/login/logo.png);
+}
+
+QLabel#titleLabel
+{
+	color: #ffffff;
+	background-color: #183257; 
+}

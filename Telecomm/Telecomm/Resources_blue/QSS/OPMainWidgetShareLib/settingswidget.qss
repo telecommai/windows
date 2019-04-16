@@ -1,0 +1,43 @@
+QWidget
+{
+background-color:#183257
+}
+
+QLabel#iconLabel
+{
+border-image: url(:/Login/Resources/login/logo.png);
+}
+
+QLabel#titleLabel
+{
+background-color: rgba(0,0,0,0);
+color: rgb(255, 255, 255);
+}
+
+QPushButton#minBtn{background-color: rgba(0,0,0,0);
+border-image: url(':/PerChat/Resources/person/minsize03.png');}
+
+QPushButton#minBtn:hover{background-color: rgba(0,0,0,0);
+border-image: url(':/PerChat/Resources/person/minsize35.png');}
+
+
+QPushButton#closeBtn
+{background-color: rgba(0,0,0,0);
+border-image: url(':/PerChat/Resources/person/close01.png');}
+
+QPushButton#closeBtn:hover{border-image: url(':/PerChat/Resources/person/close03.png');}
+
+QLabel#label_2
+{
+background-color:rgba(0,0,0,0);
+border: none;
+border-right: 1px solid #042439;
+font: 75 16pt Microsoft YaHei; 
+font-size:16px; 
+}
+
+QWidget
+{
+background-color:#183257
+}
+

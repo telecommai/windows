@@ -1,0 +1,32 @@
+QWidget
+{
+background-color: rgba(0, 0, 0, 0);
+}
+QLabel
+{
+background-color: rgba(0, 0, 0, 0);
+}
+QPushButton
+{
+background-color: rgba(0, 0, 0, 0);
+}
+QLabel#addressLabel
+{
+color: #e4ba7b;
+background-color: rgba(0, 0, 0, 0);
+}
+QLabel#balanceLabel
+{
+color: #e4ba7b;
+background-color: rgba(0, 0, 0, 0);
+}
+QLabel#iconLabel
+{
+background-color: rgba(0, 0, 0, 0);
+}
+QPushButton
+{
+color: #4c6889;
+border: none;
+background-color: rgba(0,0,0, 0);
+}

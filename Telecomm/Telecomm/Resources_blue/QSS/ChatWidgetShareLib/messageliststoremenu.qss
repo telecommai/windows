@@ -1,0 +1,20 @@
+QMenu
+{
+border:none;
+background-color: #183457;
+color: #4C6889;
+}
+QMenu::item
+{
+padding:4px;
+padding-left:10px;
+padding-right:10px;
+}
+QMenu::item:selected
+{
+background-color: #042439;
+border:none;
+padding:4px;
+padding-left:10px;
+padding-right:10px;
+｝

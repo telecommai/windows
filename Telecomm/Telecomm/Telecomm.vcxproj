@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B12702AD-ABFB-343A-A199-8E24837244A3}</ProjectGuid>
+    <Keyword>Qt4VSv1.0</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <PropertyGroup Condition="'$(QtMsBuild)'=='' or !Exists('$(QtMsBuild)\qt.targets')">
+    <QtMsBuild>$(MSBuildProjectDirectory)\QtMsBuild</QtMsBuild>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+    <IncludePath>..\SharedLib\common;..\SharedLib\OPObjectManager\include;..\SharedLib\IMRequestBuddyInfo\include;..\SharedLib\AlphabeticalSortSharedLib\include;..\SharedLib\SqlLiteShareLib\include;..\SharedLib\LoginDatabaseOperaShareLib\include;..\SharedLib\OPMainWidget\include;..\SharedLib\IMDataManagerShareLib\include;..\SharedLib\HttpNetWorkShareLib\include;..\SharedLib\ReadAppConfig\include;..\SharedLib\IMDataBaseOperaInfo\include;..\SharedLib\SocketNetWorkShareLib\include;..\SharedLib\IMSocketDataBaseShareLib\include;..\SharedLib\IMSocketNetWorkShareLib\include;..\SharedLib\OPMainMangerShareLib\include;..\SharedLib\BaseUI\include;..\SharedLib\ContactsWidget\include;..\SharedLib\IMDownLoadHeaderImg\include;..\SharedLib\ChatWidget\include;..\SharedLib\UpdateShareLib\include;..\SharedLib\OPWindowsManagerShareLib\include;..\SharedLib\ScanQRLoginShareLib\include;..\SharedLib\ewalletShareLib\include;..\SharedLib\createAddWidgetShareLib\include;..\SharedLib\OPDateBaseShareLib\include;..\SharedLib\OPRecoveryWalletShareLib\include;..\SharedLib\QRenCodeShareLib\include;..\SharedLib\libqrencode\include;..\SharedLib\OPDataManager\include;..\SharedLib\OPRequestShareLib\include;..\SharedLib\ContactsProfileShareLib\include;..\SharedLib\openssl\include;..\SharedLib\botan\include;..\SharedLib\VideoPlayShareLib\include;..\SharedLib\HttpServerShareLib\include;..\SharedLib\ScreenCutShareLib\include;..\SharedLib\QxtGlobalShortCut\include;..\SharedLib\WebObjectShareLib\include;..\SharedLib\SettingsManagerShareLib\include;..\SharedLib\qtav\include;$(IncludePath)</IncludePath>
+    <LibraryPath>../SharedLib/SqlLiteShareLib/lib;../SharedLib/LoginDatabaseOperaShareLib/lib;../SharedLib/OPMainWidget/lib;../SharedLib/IMDataManagerShareLib/lib;../SharedLib/HttpNetWorkShareLib/lib;../SharedLib/ReadAppConfig/lib;../SharedLib/IMDataBaseOperaInfo/lib;../SharedLib/SocketNetWorkShareLib/lib;../SharedLib/IMSocketDataBaseShareLib/lib;../SharedLib/IMSocketNetWorkShareLib/lib;../SharedLib/OPMainMangerShareLib/lib;../SharedLib/BaseUI/lib;../SharedLib/ContactsWidget/lib;../SharedLib/IMDownLoadHeaderImg/lib;..\SharedLib\ChatWidget\lib;..\SharedLib\UpdateShareLib\lib;..\SharedLib\IMRequestBuddyInfo\lib;..\SharedLib\OPObjectManager\lib;..\SharedLib\AlphabeticalSortSharedLib\lib;..\SharedLib\OPWindowsManagerShareLib\lib;..\SharedLib\VideoPlayShareLib\lib;..\SharedLib\zbar\lib;..\SharedLib\ScanQRLoginShareLib\lib;..\SharedLib\ewalletShareLib\lib;..\SharedLib\QRenCodeShareLib\lib;..\SharedLib\libqrencode\lib;..\SharedLib\createAddWidgetShareLib\lib;..\SharedLib\OPRecoveryWalletShareLib\lib;..\SharedLib\OPDateBaseShareLib\lib;..\SharedLib\OPDataManager\lib;..\SharedLib\OPRequestShareLib\lib;..\SharedLib\ContactsProfileShareLib\lib;..\SharedLib\openssl\lib\VC;..\SharedLib\botan\lib;..\SharedLib\HttpServerShareLib\lib;..\SharedLib\ScreenCutShareLib\lib;..\SharedLib\QxtGlobalShortCut\lib;..\SharedLib\WebObjectShareLib\lib;..\SharedLib\SettingsManagerShareLib\lib;..\SharedLib\qtav\lib;..\SharedLib\NewMsgNotifyShareLib\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+    <IncludePath>..\SharedLib\common;..\SharedLib\OPObjectManager\include;..\SharedLib\IMRequestBuddyInfo\include;..\SharedLib\AlphabeticalSortSharedLib\include;..\SharedLib\SqlLiteShareLib\include;..\SharedLib\LoginDatabaseOperaShareLib\include;..\SharedLib\OPMainWidget\include;..\SharedLib\IMDataManagerShareLib\include;..\SharedLib\HttpNetWorkShareLib\include;..\SharedLib\ReadAppConfig\include;..\SharedLib\IMDataBaseOperaInfo\include;..\SharedLib\SocketNetWorkShareLib\include;..\SharedLib\IMSocketDataBaseShareLib\include;..\SharedLib\IMSocketNetWorkShareLib\include;..\SharedLib\OPMainMangerShareLib\include;..\SharedLib\BaseUI\include;..\SharedLib\ContactsWidget\include;..\SharedLib\IMDownLoadHeaderImg\include;..\SharedLib\ChatWidget\include;..\SharedLib\UpdateShareLib\include;..\SharedLib\OPWindowsManagerShareLib\include;..\SharedLib\ScanQRLoginShareLib\include;..\SharedLib\ewalletShareLib\include;..\SharedLib\createAddWidgetShareLib\include;..\SharedLib\OPDateBaseShareLib\include;..\SharedLib\OPRecoveryWalletShareLib\include;..\SharedLib\QRenCodeShareLib\include;..\SharedLib\libqrencode\include;..\SharedLib\OPDataManager\include;..\SharedLib\OPRequestShareLib\include;..\SharedLib\ContactsProfileShareLib\include;..\SharedLib\openssl\include;..\SharedLib\botan\include;..\SharedLib\VideoPlayShareLib\include;..\SharedLib\HttpServerShareLib\include;..\SharedLib\ScreenCutShareLib\include;..\SharedLib\QxtGlobalShortCut\include;..\SharedLib\WebObjectShareLib\include;..\SharedLib\SettingsManagerShareLib\include;..\SharedLib\qtav\include;$(IncludePath)</IncludePath>
+    <LibraryPath>../SharedLib/SqlLiteShareLib/lib;../SharedLib/LoginDatabaseOperaShareLib/lib;../SharedLib/OPMainWidget/lib;../SharedLib/IMDataManagerShareLib/lib;../SharedLib/HttpNetWorkShareLib/lib;../SharedLib/ReadAppConfig/lib;../SharedLib/IMDataBaseOperaInfo/lib;../SharedLib/SocketNetWorkShareLib/lib;../SharedLib/IMSocketDataBaseShareLib/lib;../SharedLib/IMSocketNetWorkShareLib/lib;../SharedLib/OPMainMangerShareLib/lib;../SharedLib/BaseUI/lib;../SharedLib/ContactsWidget/lib;../SharedLib/IMDownLoadHeaderImg/lib;..\SharedLib\ChatWidget\lib;..\SharedLib\UpdateShareLib\lib;..\SharedLib\IMRequestBuddyInfo\lib;..\SharedLib\OPObjectManager\lib;..\SharedLib\AlphabeticalSortSharedLib\lib;..\SharedLib\OPWindowsManagerShareLib\lib;..\SharedLib\VideoPlayShareLib\lib;..\SharedLib\zbar\lib;..\SharedLib\ScanQRLoginShareLib\lib;..\SharedLib\ewalletShareLib\lib;..\SharedLib\QRenCodeShareLib\lib;..\SharedLib\libqrencode\lib;..\SharedLib\createAddWidgetShareLib\lib;..\SharedLib\OPRecoveryWalletShareLib\lib;..\SharedLib\OPDateBaseShareLib\lib;..\SharedLib\OPDataManager\lib;..\SharedLib\OPRequestShareLib\lib;..\SharedLib\ContactsProfileShareLib\lib;..\SharedLib\openssl\lib\VC;..\SharedLib\botan\lib;..\SharedLib\HttpServerShareLib\lib;..\SharedLib\ScreenCutShareLib\lib;..\SharedLib\QxtGlobalShortCut\lib;..\SharedLib\WebObjectShareLib\lib;..\SharedLib\SettingsManagerShareLib\lib;..\SharedLib\qtav\lib;..\SharedLib\NewMsgNotifyShareLib\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <Target Name="QtMsBuildNotFound" BeforeTargets="CustomBuild;ClCompile" Condition="!Exists('$(QtMsBuild)\qt.targets') or !Exists('$(QtMsBuild)\qt.props')">
+    <Message Importance="High" Text="QtMsBuild: could not locate qt.targets, qt.props; project may not build correctly." />
+  </Target>
+  <ImportGroup Condition="Exists('$(QtMsBuild)\qt.props')">
+    <Import Project="$(QtMsBuild)\qt.props" />
+  </ImportGroup>
+  <ImportGroup Label="ExtensionSettings" />
+  <ImportGroup Label="Shared" />
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <PreprocessorDefinitions>UNICODE;_UNICODE;WIN32;WIN64;QT_DLL;QT_CORE_LIB;QT_GUI_LIB;QT_WIDGETS_LIB;QT_MULTIMEDIA_LIB;QT_MULTIMEDIAWIDGETS_LIB;QT_NETWORK_LIB;QT_QML_LIB;QT_QUICK_LIB;QT_QUICKWIDGETS_LIB;QT_QUICKCONTROLS2_LIB;QT_SQL_LIB;QT_WEBCHANNEL_LIB;QT_WEBENGINE_LIB;QT_WEBENGINECORE_LIB;QT_WEBENGINEWIDGETS_LIB;QT_XML_LIB;QT_WINEXTRAS_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>.\GeneratedFiles;.;$(QTDIR)\include;.\GeneratedFiles\$(ConfigurationName);$(QTDIR)\include\QtCore;$(QTDIR)\include\QtGui;$(QTDIR)\include\QtANGLE;$(QTDIR)\include\QtWidgets;$(QTDIR)\include\QtMultimedia;$(QTDIR)\include\QtMultimediaWidgets;$(QTDIR)\include\QtNetwork;$(QTDIR)\include\QtQml;$(QTDIR)\include\QtQuick;$(QTDIR)\include\QtQuickWidgets;$(QTDIR)\include\QtQuickControls2;$(QTDIR)\include\QtSql;$(QTDIR)\include\QtWebChannel;$(QTDIR)\include\QtWebEngine;$(QTDIR)\include\QtWebEngineCore;$(QTDIR)\include\QtWebEngineWidgets;$(QTDIR)\include\QtXml;$(QTDIR)\include\QtWinExtras;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <Optimization>Disabled</Optimization>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <OutputFile>$(OutDir)\$(ProjectName).exe</OutputFile>
+      <AdditionalLibraryDirectories>$(QTDIR)\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>qtmaind.lib;Qt5Cored.lib;Qt5Guid.lib;Qt5Widgetsd.lib;Qt5Multimediad.lib;Qt5MultimediaWidgetsd.lib;Qt5Networkd.lib;Qt5Qmld.lib;Qt5Quickd.lib;Qt5QuickWidgetsd.lib;Qt5QuickControls2d.lib;Qt5Sqld.lib;Qt5WebChanneld.lib;Qt5WebEngined.lib;Qt5WebEngineCored.lib;Qt5WebEngineWidgetsd.lib;Qt5Xmld.lib;Qt5WinExtrasd.lib;libeay32MD.lib;ssleay32MD.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <QtMoc>
+      <OutputFile>.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</OutputFile>
+      <ExecutionDescription>Moc'ing %(Identity)...</ExecutionDescription>
+      <IncludePath>.\GeneratedFiles;.;$(QTDIR)\include;.\GeneratedFiles\$(ConfigurationName);$(QTDIR)\include\QtCore;$(QTDIR)\include\QtGui;$(QTDIR)\include\QtANGLE;$(QTDIR)\include\QtWidgets;$(QTDIR)\include\QtMultimedia;$(QTDIR)\include\QtMultimediaWidgets;$(QTDIR)\include\QtNetwork;$(QTDIR)\include\QtQml;$(QTDIR)\include\QtQuick;$(QTDIR)\include\QtQuickWidgets;$(QTDIR)\include\QtQuickControls2;$(QTDIR)\include\QtSql;$(QTDIR)\include\QtWebChannel;$(QTDIR)\include\QtWebEngine;$(QTDIR)\include\QtWebEngineCore;$(QTDIR)\include\QtWebEngineWidgets;$(QTDIR)\include\QtXml;$(QTDIR)\include\QtWinExtras;%(AdditionalIncludeDirectories)</IncludePath>
+      <Define>UNICODE;_UNICODE;WIN32;WIN64;QT_DLL;QT_CORE_LIB;QT_GUI_LIB;QT_WIDGETS_LIB;QT_MULTIMEDIA_LIB;QT_MULTIMEDIAWIDGETS_LIB;QT_NETWORK_LIB;QT_QML_LIB;QT_QUICK_LIB;QT_QUICKWIDGETS_LIB;QT_QUICKCONTROLS2_LIB;QT_SQL_LIB;QT_WEBCHANNEL_LIB;QT_WEBENGINE_LIB;QT_WEBENGINECORE_LIB;QT_WEBENGINEWIDGETS_LIB;QT_XML_LIB;QT_WINEXTRAS_LIB;%(PreprocessorDefinitions)</Define>
+    </QtMoc>
+    <QtUic>
+      <ExecutionDescription>Uic'ing %(Identity)...</ExecutionDescription>
+      <OutputFile>.\GeneratedFiles\ui_%(Filename).h</OutputFile>
+    </QtUic>
+    <QtRcc>
+      <ExecutionDescription>Rcc'ing %(Identity)...</ExecutionDescription>
+      <OutputFile>.\GeneratedFiles\qrc_%(Filename).cpp</OutputFile>
+    </QtRcc>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <PreprocessorDefinitions>UNICODE;_UNICODE;WIN32;WIN64;QT_DLL;QT_NO_DEBUG;NDEBUG;QT_CORE_LIB;QT_GUI_LIB;QT_WIDGETS_LIB;QT_MULTIMEDIA_LIB;QT_MULTIMEDIAWIDGETS_LIB;QT_NETWORK_LIB;QT_QML_LIB;QT_QUICK_LIB;QT_QUICKWIDGETS_LIB;QT_QUICKCONTROLS2_LIB;QT_SQL_LIB;QT_WEBCHANNEL_LIB;QT_WEBENGINE_LIB;QT_WEBENGINECORE_LIB;QT_WEBENGINEWIDGETS_LIB;QT_XML_LIB;QT_WINEXTRAS_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>.\GeneratedFiles;.;$(QTDIR)\include;.\GeneratedFiles\$(ConfigurationName);$(QTDIR)\include\QtCore;$(QTDIR)\include\QtGui;$(QTDIR)\include\QtANGLE;$(QTDIR)\include\QtWidgets;$(QTDIR)\include\QtMultimedia;$(QTDIR)\include\QtMultimediaWidgets;$(QTDIR)\include\QtNetwork;$(QTDIR)\include\QtQml;$(QTDIR)\include\QtQuick;$(QTDIR)\include\QtQuickWidgets;$(QTDIR)\include\QtQuickControls2;$(QTDIR)\include\QtSql;$(QTDIR)\include\QtWebChannel;$(QTDIR)\include\QtWebEngine;$(QTDIR)\include\QtWebEngineCore;$(QTDIR)\include\QtWebEngineWidgets;$(QTDIR)\include\QtXml;$(QTDIR)\include\QtWinExtras;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DebugInformationFormat />
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <OutputFile>$(OutDir)\$(ProjectName).exe</OutputFile>
+      <AdditionalLibraryDirectories>$(QTDIR)\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <AdditionalDependencies>qtmain.lib;Qt5Core.lib;Qt5Gui.lib;Qt5Widgets.lib;Qt5Multimedia.lib;Qt5MultimediaWidgets.lib;Qt5Network.lib;Qt5Qml.lib;Qt5Quick.lib;Qt5QuickWidgets.lib;Qt5QuickControls2.lib;Qt5Sql.lib;Qt5WebChannel.lib;Qt5WebEngine.lib;Qt5WebEngineCore.lib;Qt5WebEngineWidgets.lib;Qt5Xml.lib;Qt5WinExtras.lib;libeay32MD.lib;ssleay32MD.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <QtMoc>
+      <OutputFile>.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</OutputFile>
+      <ExecutionDescription>Moc'ing %(Identity)...</ExecutionDescription>
+      <IncludePath>.\GeneratedFiles;.;$(QTDIR)\include;.\GeneratedFiles\$(ConfigurationName);$(QTDIR)\include\QtCore;$(QTDIR)\include\QtGui;$(QTDIR)\include\QtANGLE;$(QTDIR)\include\QtWidgets;$(QTDIR)\include\QtMultimedia;$(QTDIR)\include\QtMultimediaWidgets;$(QTDIR)\include\QtNetwork;$(QTDIR)\include\QtQml;$(QTDIR)\include\QtQuick;$(QTDIR)\include\QtQuickWidgets;$(QTDIR)\include\QtQuickControls2;$(QTDIR)\include\QtSql;$(QTDIR)\include\QtWebChannel;$(QTDIR)\include\QtWebEngine;$(QTDIR)\include\QtWebEngineCore;$(QTDIR)\include\QtWebEngineWidgets;$(QTDIR)\include\QtXml;$(QTDIR)\include\QtWinExtras;%(AdditionalIncludeDirectories)</IncludePath>
+      <Define>UNICODE;_UNICODE;WIN32;WIN64;QT_DLL;QT_NO_DEBUG;NDEBUG;QT_CORE_LIB;QT_GUI_LIB;QT_WIDGETS_LIB;QT_MULTIMEDIA_LIB;QT_MULTIMEDIAWIDGETS_LIB;QT_NETWORK_LIB;QT_QML_LIB;QT_QUICK_LIB;QT_QUICKWIDGETS_LIB;QT_QUICKCONTROLS2_LIB;QT_SQL_LIB;QT_WEBCHANNEL_LIB;QT_WEBENGINE_LIB;QT_WEBENGINECORE_LIB;QT_WEBENGINEWIDGETS_LIB;QT_XML_LIB;QT_WINEXTRAS_LIB;%(PreprocessorDefinitions)</Define>
+    </QtMoc>
+    <QtUic>
+      <ExecutionDescription>Uic'ing %(Identity)...</ExecutionDescription>
+      <OutputFile>.\GeneratedFiles\ui_%(Filename).h</OutputFile>
+    </QtUic>
+    <QtRcc>
+      <ExecutionDescription>Rcc'ing %(Identity)...</ExecutionDescription>
+      <OutputFile>.\GeneratedFiles\qrc_%(Filename).cpp</OutputFile>
+    </QtRcc>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="myapplication.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="Telecomm.qrc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Telecomm.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="dependent.h" />
+    <QtMoc Include="myapplication.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Condition="Exists('$(QtMsBuild)\qt.targets')">
+    <Import Project="$(QtMsBuild)\qt.targets" />
+  </ImportGroup>
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties MocDir=".\GeneratedFiles\$(ConfigurationName)" UicDir=".\GeneratedFiles" RccDir=".\GeneratedFiles" lupdateOptions="" lupdateOnBuild="0" lreleaseOptions="" Qt5Version_x0020_Win32="Qt5.10.1" MocOptions="" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
