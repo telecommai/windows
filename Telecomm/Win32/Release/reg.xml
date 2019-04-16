@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<apps>
+<app name="CWGX">
+  <reg id="HKEY_CLASSES_ROOT\ospp">
+    <value key=".">URL:ospp Protocol Handler</value>
+	<value key="URL Protocol"></value>
+  </reg>
+  <reg id="HKEY_CLASSES_ROOT\ospp\DefaultIcon">
+    <path key="."></path>
+  </reg>
+  <reg id="HKEY_CLASSES_ROOT\ospp\shell\open\command">
+    <path key="."> "%1"</path>
+  </reg>
+</app>
+
+<app name="public">
+  <reg id="HKEY_CLASSES_ROOT\ipcom">
+    <value key=".">URL:ipcom Protocol Handler</value>
+	<value key="URL Protocol"></value>
+  </reg>
+  <reg id="HKEY_CLASSES_ROOT\ipcom\DefaultIcon">
+    <path key="."></path>
+  </reg>
+  <reg id="HKEY_CLASSES_ROOT\ipcom\shell\open\command">
+    <path key="."> "%1"</path>
+  </reg>
+</app>
+</apps>

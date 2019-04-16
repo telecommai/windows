@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<config> 
+  <server> 
+    <!--websocket 服务  enable 是否启用-->  
+    <websocket Enable="true"> 
+      <port>20001</port> 
+    </websocket>  
+    <!--http 服务  enable 是否启用-->  
+    <http Enable="true"> 
+      <port>12306</port> 
+    </http> 
+  </server>  
+  <address> 
+    <MessageServerURL>https://im.ipcom.io</MessageServerURL>  
+    <!--消息服务地址-->  
+    <BSServerURL>http://panmob.solarsource.cn:9692/BSServer</BSServerURL>  
+    <!--业务用户验证地址-->  
+    <PanServerURL>http://panserver.solarsource.cn:9692/panserver</PanServerURL>  
+    <!--云盘地址--> 
+  </address> 
+  <ShareMemory> 
+	<shareMemoryName>OpenPlanet</shareMemoryName>
+  </ShareMemory> 
+  <version> 
+    <number>1.0.1</number>  
+    <appid>winTelecomm</appid>  
+    <name>public</name> 
+	<update>1.16</update>
+	<appname>星际通讯</appname>
+  </version> 
+</config>
