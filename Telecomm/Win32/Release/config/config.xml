@@ -12,21 +12,21 @@
     </http> 
   </server>  
   <address> 
-    <MessageServerURL>https://im.ipcom.io</MessageServerURL>  
+    <MessageServerURL>https://im.telecomm.io</MessageServerURL>  
     <!--消息服务地址-->  
-    <BSServerURL>http://panmob.solarsource.cn:9692/BSServer</BSServerURL>  
+    <BSServerURL>https://tc.telecomm.io/tcserver</BSServerURL>  
     <!--业务用户验证地址-->  
-    <PanServerURL>http://panserver.solarsource.cn:9692/panserver</PanServerURL>  
+    <PanServerURL>https://panserver.telecomm.io/panserver</PanServerURL>  
     <!--云盘地址--> 
   </address> 
   <ShareMemory> 
-	<shareMemoryName>OpenPlanet</shareMemoryName>
+	<shareMemoryName>Telecomm</shareMemoryName>
   </ShareMemory> 
   <version> 
-    <number>1.0.1</number>  
+    <number>1.0.2</number>  
     <appid>winTelecomm</appid>  
     <name>public</name> 
-	<update>1.16</update>
-	<appname>星际通讯</appname>
+	<update>1.17</update>
+	<appname>Telecomm</appname>
   </version> 
 </config>
